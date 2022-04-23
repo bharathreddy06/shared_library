@@ -34,7 +34,7 @@ environment {
 			 steps { 
 				 script {
 					 docker.withRegistry( '', registryCredential ) { 
-			                        dockerImage.push() 
+			                        dockerimage.push() 
                     			}
                 		}		
 			} 
